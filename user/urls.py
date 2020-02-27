@@ -1,5 +1,5 @@
-from django.urls.conf import include, url
-
+from django.conf.urls import url
+from user.views import *
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    url('admin/', index),
 ]
